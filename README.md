@@ -1,4 +1,4 @@
-# Issues Github App
+# Cocktail app
 
 Proyecto generado con Angular 10. 
 Es una aplicación que hace una llamada a una api externa, donde lista cocktails
