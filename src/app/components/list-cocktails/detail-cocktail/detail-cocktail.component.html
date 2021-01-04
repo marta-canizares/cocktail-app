@@ -3,7 +3,7 @@
   
       <div class="row">
         <div class="col-12">
-          <h1>{{cocktail.name}}</h1>
+          <h3>{{cocktail.name}}</h3>
         </div>
       </div>
   
@@ -15,7 +15,7 @@
   
       <div class="row">
         <div class="col-12">
-          <h1>Instrucciones</h1>
+          <h4>Instrucciones</h4>
           <p>{{cocktail.instructions}}</p>
         </div>
       </div>
@@ -23,7 +23,7 @@
       <div class="row">
   
         <div class="col-6" *ngIf="cocktail.numIngredients !== 0">
-          <h1>Ingredientes</h1>
+          <h4>Ingredientes</h4>
           <ul>
             <li *ngFor="let ingredient of cocktail.ingredients">
               {{ingredient}}
@@ -32,7 +32,7 @@
         </div>
   
         <div class="col-6" *ngIf="cocktail.numMeasures !== 0">
-          <h1>Measure</h1>
+          <h4>Medidas</h4>
           <ul>
             <li *ngFor="let measure of cocktail.measures">
               {{measure}}
