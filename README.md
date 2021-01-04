@@ -1,27 +1,28 @@
-# CocktailApp
+# Cocktail app
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
+Proyecto generado con Angular 10. 
+Es una aplicación que hace una llamada a una api externa, donde lista cocktails
+Hay que introducir algún parámetero para que busque ese elemento
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Comenzando 🚀
+Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-## Code scaffolding
+## Clonar el proyecto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Ejecutar git clone 'https://github.com/marta-canizares/cocktail-app.git'
 
-## Build
+## Instalar dependencias
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Instalar las dependencias con npm install
 
-## Running unit tests
+## Arrancar el servidor
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Arrancar el proyecto con 'ng serve -o'.  Se abrirá una nueva ventana con la url local donde está levantado el proyecto: http://localhost:4200/
 
-## Running end-to-end tests
+## Autores ✒️
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+* **Marta Sánchez Cañizares** 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
